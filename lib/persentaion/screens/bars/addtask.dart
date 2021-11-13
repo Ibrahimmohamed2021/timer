@@ -49,7 +49,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
                    DateTimePicker(
                     type: DateTimePickerType.dateTime,
                     controller: timeController,
-                    initialValue: '',
+                    //initialValue: '',
                     firstDate: DateTime(2000),
                     lastDate: DateTime(2100),
                     dateLabelText: 'Date',
